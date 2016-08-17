@@ -1,14 +1,16 @@
 // zen_cms is MIT licensed.
 
 var script_table = {};
-script_table['Edge_Tools_VTX'] = "Edge_Tools.txt";
-script_table['Monster_Tile_Renderer'] = "Monster_Tile_Renderer.txt";
-script_table['Add_Vertex'] = "Add_Vertex.txt";
-script_table['Add_Empty'] = "Add_Empty.txt";
-script_table['On_Markdown'] = "On_Markdown.markdown";
-script_table['Text_Appeal'] = "Text_Appeal5.txt";
-script_table['On_Naming'] = "On_Naming.markdown";
-script_table['On_Comments'] = "On_Comments.markdown";
+var items_to_list = [
+    "Sverchok.markdown",
+    "mesh_tiny_cad.markdown",
+]
+
+for (pidx in items_to_list){
+    var item = items_to_list[pidx]
+    var name = item.split('.')[0]
+    script_table[name] = item
+}
 
 function read_content(myUrl) {
     
