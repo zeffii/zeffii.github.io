@@ -14,5 +14,5 @@ script_table['On_Comments'] = "On_Comments.markdown";
 
 ```
 
-let zen_cms.js do the rest.
+let zen_cms.js do the rest. visit [zeffii.github.io](https://zeffii.github.io)
 
