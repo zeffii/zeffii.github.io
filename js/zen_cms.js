@@ -3,7 +3,8 @@
 var script_table = {};
 var items_to_list = [
     "Sverchok.markdown",
-    "mesh_tiny_cad.markdown"
+    "mesh_tiny_cad.markdown",
+    "encom_style_wiki.markdown"
 ]
 
 for (pidx in items_to_list){
