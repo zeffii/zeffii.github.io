@@ -2,11 +2,11 @@
 
 Now included in release versions of Blender 2.78. This addon has the following features:
 
-- Intersect selected Edges
-- Project two lines towards their intersection
-- Generate The Bisector of two selected lines
+- Intersect selected edges
+- Project two selected edges towards their intersection
+- Generate the _Bisector_ of two selected edges
 - Project an edge towards a face
-- Regenerate a Circle primitive from any 3 verts.
+- Regenerate a _Circle_ primitive from any 3 verts.
 
 See [the docs here](http://zeffii.github.io/mesh_tiny_cad/)   
   
